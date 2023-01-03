@@ -57,6 +57,7 @@ x>y ? `${x} Büyük`: `Kücük sayı ${x}`
     
     <h3>&& Operatörü Tercih Etme Sıkıntılı Bug var Nan  da Nan verir,0 verince de 0 yazıyor ekrana olmaz  </h3>
     Mantık: eğer true dönerse  şu işlemi , false dönerse şu işlemi yap demek
+    şartı istediğimiz gibi belirleyebiliriz ture veya false olma zorunluluğu yok
 
   <Operations  isim={"Jane"} result={false}/>
     
