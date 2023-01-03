@@ -6,7 +6,7 @@ import SwitchComponent from './SwitchComponent';
 import { useState } from 'react';
 import Nested from './Nested';
 //Conditional Rendering:Koşullu Render işlemi
-//1-Verdigimiz koşula göre componenti ekrana bastırabilirsin veya nebilem bir işlemin sonucunu döndürebilirsin,datadan veri alıp onları ekranda gösterebilirsin
+//1-Verdigimiz koşula göre componenti ekrana bastırabilirsin veya  bir işlemin sonucunu döndürebilirsin,datadan veri alıp onları ekranda gösterebilirsin
 //2-Koşula göre yapılması istene ve istenmeyen işlemleri  gerçekleştir
 let x=1343
 let y=412
