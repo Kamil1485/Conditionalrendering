@@ -10,17 +10,13 @@ import Nested from './Nested';
 //2-Koşula göre yapılması istene ve istenmeyen işlemleri  gerçekleştir
 let x=1343
 let y=412
-
 {/** && Kullanımı */}
 
 let isim="aTadEMir"
 console.log(isim.toLocaleLowerCase())
-
 function App() {
-
 const [value,Setvalue]=useState("")
 const[mesaj,Setmesaj]=useState("")
-
 console.log(value)
 
   function Inputguncelle(e){
@@ -45,23 +41,14 @@ x>y ? `${x} Büyük`: `Kücük sayı ${x}`
 }
 </h4>
 
-
 <h3>Ternarnary Operatörü if-else Kısaltma</h3>
 <Ternary isim={"Merve"} Vejeteryanmı={true}/><br/>
 <Ternary isim={"Ahmet"} Vejeteryanmı={false}/>
-
     
     <h4>Componenti İf e gore Cagır</h4>
     <Person/>    
     {/*Hersey Person da başlıyor */}
-    
-    <h3>&& Operatörü Tercih Etme Sıkıntılı Bug var Nan  da Nan verir,0 verince de 0 yazıyor ekrana olmaz  </h3>
-    Mantık: eğer true dönerse  şu işlemi , false dönerse şu işlemi yap demek
-    şartı istediğimiz gibi belirleyebiliriz ture veya false olma zorunluluğu yok
-
-  <Operations  isim={"Jane"} result={false}/>
-    
-
+    <Operations  isim={"Jane"} result={false}/>
     <h3>SwitchCase Kullanımı</h3>
     <h4>Component Adına Göre Ekrana bas</h4>
     <input placeholder='Component Cagır' onChange={(e)=>Inputguncelle(e)}></input>
@@ -71,8 +58,6 @@ x>y ? `${x} Büyük`: `Kücük sayı ${x}`
 <h2>Nested Conditional Rendering iç içe if else kullan else den sonrasında başka if başlasın mesela</h2>
 
 <Nested list={list}/>
-
-
 
 <h2>Formlar</h2>
 <Form/>
